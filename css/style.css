@@ -1,0 +1,105 @@
+* {
+	font-family: 'Nunito', sans-serif;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+
+}
+p {
+	text-align: justify;
+}
+/* Header Section */
+header {
+	
+	background-color: rgb(91,192,222);
+	border-radius: 10px;
+	margin: 20px 30px 20px 30px;
+	padding: 20px;
+	padding-bottom: 0px;
+
+}
+.formContainer {
+	background-color: rgb(66,139,202);
+	margin: 10px -20px;
+	height: 30px;
+	padding: 5px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+input, select {
+	border-radius: 3px;
+	border: 1px solid rgb(249,249,249);
+}
+input {
+	width: 15%;
+}
+select {
+	width: 10%;
+	text-align-last: center;
+}
+
+/* Header Section End */
+
+/* Hotel cards */
+#mainContainer {
+	display: grid;
+	grid-template-columns: 33.33% 33.33% 33.33%;
+	
+	margin: 10px 30px 10px 30px;
+	/*border: solid 1px black;*/
+}
+.hotelContainer {
+	padding: 0px 10px 20px;
+	
+}
+.hotel {
+	box-shadow: 0px 0px 5px 1px grey;
+	border-radius: 10px;
+}
+.hotelPhoto {
+	width: 100%;
+	border-radius: 10px 10px 0px 0px;
+}
+
+button {
+	width: 100%;
+	color: 	#f9f9f9;
+	background-color: rgb(91,192,222);
+	border-radius: 0px 0px 10px 10px;
+	border: none;
+	padding: 0.5rem;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.description, .details {
+	margin: 15px;
+}
+
+.location, .sizeandprice, .size, .price {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.sizeandprice {
+	justify-content: space-between;
+}
+.icon-tabler-bed, .icon-tabler-map-pin {
+	margin: 5px;
+}
+/* Hotel Cars End */
+
+/* No option Window */
+.noOption {
+	margin: 30px 15%;
+	display: flex;
+	justify-content: center;
+}
+
+.noOption h1 {
+	color: rgb(217,83,79);
+	text-align: justify;
+}
+
